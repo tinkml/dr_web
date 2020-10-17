@@ -3,9 +3,9 @@
 - Tortoise ORM
 
 ## Необходимо, чтобы были установленны:
-<a href="https://www.python.org/downloads/">Python 3.8.3</a>
-<a href="https://www.postgresql.org/download/">PostgresQL</a>
-<a href="https://github.com/">GitHub</a>
+- <a href="https://www.python.org/downloads/">Python 3.8.3</a>
+- <a href="https://www.postgresql.org/download/">PostgresQL</a>
+- <a href="https://github.com/">GitHub</a>
 
 ## Чтобы начать использовать:
 Склонируйте репозиторий с проектом:
