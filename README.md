@@ -8,30 +8,32 @@
 - <a href="https://github.com/">GitHub</a>
 
 ## Чтобы начать использовать:
-Склонируйте репозиторий с проектом:
+1.Склонируйте репозиторий с проектом:
 ```sh
 git clone https://github.com/tinkml/haclever.git
 ```
 
-Перейдите в директорию проекта:
+2.Создайте БД и пользователя в PostgresQL
+
+3.Перейдите в директорию проекта:
 ```sh
 cd dr_web
 ```
 
-Создайте виртуальное окружение Python и активируйте его.
+4.Создайте виртуальное окружение Python и активируйте его.
 ```sh
 python -m venv venv
 source env/bin/activate - for Linux.
 env\Scripts\activate - for Windows.
 ```
 
-Установите все необходимые зависимости:
+5.Установите все необходимые зависимости:
 ```sh
 pip3 install -r req.txt - for Linux
 pip install -r req.txt - for Windows
 ```
 
-Запустите проект:
+6.Запустите проект:
 ```sh
 python3 application.py - for Linux
 python application.py - for Windows
