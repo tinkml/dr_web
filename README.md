@@ -1,44 +1,33 @@
 ## Технологии:
 - FastAPI
 - Tortoise ORM
+- Docker
 
 ## Необходимо, чтобы были установленны:
-- <a href="https://www.python.org/downloads/">Python 3.8.3</a>
-- <a href="https://www.postgresql.org/download/">PostgresQL</a>
+- <a href="https://www.docker.com/get-started">Docker/a>
+- <a href="https://docs.docker.com/compose/install/">Docker Compose</a>
 - <a href="https://github.com/">GitHub</a>
 
 ## Чтобы начать использовать:
-1.Склонируйте репозиторий с проектом:
+Склонируйте репозиторий с проектом:
 ```sh
 git clone https://github.com/tinkml/haclever.git
 ```
 
-2.Создайте БД и пользователя в PostgresQL
-
-3.Перейдите в директорию проекта:
+Перейдите в директорию проекта:
 ```sh
 cd dr_web
 ```
 
-4.Создайте виртуальное окружение Python и активируйте его.
+Сформируйте .env файлы на основе .env.example.
 ```sh
-python -m venv venv
-source env/bin/activate - for Linux.
-env\Scripts\activate - for Windows.
+https://docs.google.com/document/d/1nL8otZAJWVy7jKCArMyzYs3jY2WoihSZsYANLbNtbA0/edit?usp=sharing
 ```
 
-5.Установите все необходимые зависимости:
+Запустите процесс сбоки контейнеров с помощью docker-compose:
 ```sh
-pip3 install -r req.txt - for Linux
-pip install -r req.txt - for Windows
+docker-compose up -d --build
 ```
-
-6.Запустите проект:
-```sh
-python3 application.py - for Linux
-python application.py - for Windows
-```
-
 
 Проект станет доступен по адресу 
 ```sh
@@ -46,5 +35,12 @@ http://0.0.0.0:8000//docs
 ```
 
 ## Важно:
-- Проеверьте, создан ли пользователь и база данных в PostgresQL
-- Настройка и инифиализация БД находится в директории db/
+Если у вас на компьютере установлен PostgresQL.
+- Проверьте, статус
+```sh
+sudo systemctl status postgresql
+```
+- Если статус "active", становите процесс
+```sh
+sudo systemctl stop postgresql
+```
