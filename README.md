@@ -4,7 +4,7 @@
 - Docker
 
 ## Необходимо, чтобы были установленны:
-- <a href="https://www.docker.com/get-started">Docker/a>
+- <a href="https://www.docker.com/get-started">Docker</a>
 - <a href="https://docs.docker.com/compose/install/">Docker Compose</a>
 - <a href="https://github.com/">GitHub</a>
 
