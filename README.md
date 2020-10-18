@@ -24,7 +24,7 @@ cd dr_web
 https://docs.google.com/document/d/1nL8otZAJWVy7jKCArMyzYs3jY2WoihSZsYANLbNtbA0/edit?usp=sharing
 ```
 
-Запустите процесс сбоки контейнеров с помощью docker-compose:
+Соберите и запустите в фоновом режиме контейнеры с помощью docker-compose:
 ```sh
 docker-compose up -d --build
 ```
